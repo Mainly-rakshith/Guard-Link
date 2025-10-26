@@ -6,14 +6,39 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A563AB6A2EADB6820049AD1C /* GuardLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A563AB692EADB6820049AD1C /* GuardLinkApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A563AB662EADB6820049AD1C /* Guard Link.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guard Link.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A563AB692EADB6820049AD1C /* GuardLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardLinkApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A563AB682EADB6820049AD1C /* Guard Link */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Guard Link";
+			sourceTree = "<group>";
+		};
+		A563AB742EADB7370049AD1C /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A563AB762EADB76D0049AD1C /* Data */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A563AB772EADB7A40049AD1C /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A563AB782EADB7B10049AD1C /* Utils */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +59,11 @@
 			children = (
 				A563AB682EADB6820049AD1C /* Guard Link */,
 				A563AB672EADB6820049AD1C /* Products */,
+				A563AB742EADB7370049AD1C /* Models */,
+				A563AB762EADB76D0049AD1C /* Data */,
+				A563AB772EADB7A40049AD1C /* Views */,
+				A563AB782EADB7B10049AD1C /* Utils */,
+				A563AB692EADB6820049AD1C /* GuardLinkApp.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +92,10 @@
 			);
 			fileSystemSynchronizedGroups = (
 				A563AB682EADB6820049AD1C /* Guard Link */,
+				A563AB742EADB7370049AD1C /* Models */,
+				A563AB762EADB76D0049AD1C /* Data */,
+				A563AB772EADB7A40049AD1C /* Views */,
+				A563AB782EADB7B10049AD1C /* Utils */,
 			);
 			name = "Guard Link";
 			packageProductDependencies = (
@@ -119,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A563AB6A2EADB6820049AD1C /* GuardLinkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

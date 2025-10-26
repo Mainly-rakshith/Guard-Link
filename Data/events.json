@@ -1,0 +1,17 @@
+// events.json
+[
+  {
+    "id": "C3333333-3333-3333-3333-333333333333",
+    "title": "Family Readiness Night",
+    "dateISO": "2025-11-05",
+    "location": "Rogers Armory",
+    "notes": "Childcare available; Q&A with FRG lead."
+  },
+  {
+    "id": "D4444444-4444-4444-4444-444444444444",
+    "title": "Benefits Enrollment Help Desk",
+    "dateISO": "2025-11-12",
+    "location": "Fayetteville VA Clinic",
+    "notes": null
+  }
+]

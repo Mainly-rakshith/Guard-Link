@@ -5,13 +5,12 @@
 //  Created by Rakshith Jayakarthikeyan on 10/25/25.
 //
 
+// GuardLinkApp.swift
 import SwiftUI
 
 @main
-struct Guard_LinkApp: App {
+struct GuardLinkApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+        WindowGroup { RootTabView() }
     }
 }

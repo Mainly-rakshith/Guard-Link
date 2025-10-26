@@ -1,0 +1,10 @@
+// armories.json (optional)
+[
+  {
+    "id": "E5555555-5555-5555-5555-555555555555",
+    "name": "Rogers Armory",
+    "latitude": 36.332,
+    "longitude": -94.118,
+    "address": "123 Armory Way, Rogers, AR"
+  }
+]
